@@ -1,3 +1,3 @@
-# Postdoctral Researcher
+# Postdoctoral Researcher
 
 Hi everyone! I am now a postdoctoral researcher in Mechanical and Aerospace Engineering at UC San Diego since October 2024. The first project I am working on is to enhance acoustic prediction methods based on Computational System Design Language (CSDL). This is supported by my PI, Prof. John T. Hwang. The current research keywords are Multidisciplinary Design Optimization (MDO), aircraft design, and sensitivity analysis. I am also interested in computational fluid dynamics (CFD) and aeroacoustics that I studied as a PhD thesis, which I will combine with the field of MDO.
