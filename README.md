@@ -10,3 +10,11 @@ Hi everyone! I am now a postdoctoral researcher in Mechanical and Aerospace Engi
   <button onclick="openTab(event, 'Publications')">Publications</button>
 </div>
 
+<!-- Tab content -->
+<div id="Research" class="tabcontent">
+  ## Research Topics
+  - **Topic 1**: Computational fluid dynamics and acoustics
+  - **Topic 2**: Noise prediction and validation models
+  - **Topic 3**: Optimization for aeroacoustics design
+</div>
+
