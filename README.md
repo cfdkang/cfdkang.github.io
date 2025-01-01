@@ -4,13 +4,3 @@ Hi everyone! I am now a postdoctoral researcher in Mechanical and Aerospace Engi
 
 # Research Topics and Publications
 
-[Research](./research/home) | [Publications](./publications)
-
----
-
-### Research Topics
-Click on the [Research tab](./research/home) to explore detailed research topics.
-
-### Publications
-Click on the [Publications tab](./publications) to view a list of publications.
-
