@@ -40,6 +40,10 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Implemented **Farassat’s 1A FW-H formulation** in Python using **CSDL**, integrated with design optimization workflows.
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows.
 
+<p align="center">
+  <img src="./assets/figures/Fig_SPOD.png" width="600"/>
+</p>
+
 ---
 
 *For the full list of journal papers and conference proceedings, please see the [CV](./CV_Donghun_Kang_Git.pdf)*  
