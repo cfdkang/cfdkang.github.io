@@ -1,9 +1,3 @@
-<style>
-.github-fork-ribbon, .gh-page-link {
-  display: none !important;
-}
-</style>
-
 # About Me
 
 I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at UC San Diego, working with Professor John T. Hwang in the Large-Scale Design Optimization (LSDO) Lab since 2024. I earned my Ph.D. from UC Davis under the guidance of Professor Seongkyu Lee.
