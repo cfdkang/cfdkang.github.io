@@ -42,6 +42,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 <p align="center">
   <img src="./assets/figures/Fig_SPOD.png" width="600"/>
+  <br/>
+  <em> Figure. SPOD of trailing-edge noise source structures under flow misalignment</em>
 </p>
 
 ---
