@@ -22,9 +22,9 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - **Meshing**: pyHyp, Pointwise, Gmsh  
   - **Visualization**: Tecplot, ParaView, FieldView
 
-## 2. Aerodynamic Design Optimization (MDO / ROM)
+## 2. Aerodynamic Shape Optimization (ASO)
 
-- Built a modular **MDO framework** using **CSDL**, interfaced with **DAFoam** and key design components:
+- Built a modular **ASO framework** using **CSDL**, interfaced with **DAFoam** and key design components:
   - `pyHyp` for volume meshing
   - `IDWarp` for mesh deformation
   - `modopt` for gradient-based optimization
