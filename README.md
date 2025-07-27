@@ -7,7 +7,6 @@
 I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at UC San Diego, working with Dr. John Hwang in the Large-Scale Design Optimization (LSDO) Lab since 2024. I earned my Ph.D. from UC Davis under the guidance of Dr. Seongkyu Lee.
 
 My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics (CFD). I aim to elucidate the fundamental mechanisms of noise generation in turbulent flows and develop efficient methods for optimizing aircraft performance and design.
-
 ---
 
 ## Research Interests
@@ -38,12 +37,13 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 2. Aeroacoustics
-
-- Simulated **airframe noise** using LES + FW-H solvers (e.g., PSU-WOPWOP)
-- Applied empirical models (e.g., Amiet, BPM) for validation
-- Developed acoustic tools: cross-spectrum analysis, SPOD, DMD, wavelet denoising
-- Implemented **Farassat’s 1A formulation** in Python with `CSDL` and used in design loops
-- Collaborated with Stanford CTR on **wavelet-based pressure decomposition**
+- Investigated **airframe noise** using large-eddy simulations (LES) coupled with:
+  - **FW-H solver** (e.g., PSU-WOPWOP)
+  - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
+- Developed spectral tool for acoustic analysis: cross-spectrum method
+- Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
+- Implemented **Farassat’s 1A FW-H formulation** in `Python` using `CSDL`, integrated with design optimization workflows
+- Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
 
 <p align="center">
   <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="350"/>
@@ -57,14 +57,13 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 3. Aerodynamic Shape Optimization (ASO)
-
-- Built a modular ASO pipeline using `CSDL` + `DAFoam`, including:
-  - `lsdo_geo` for geometry
+- Built a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
+  - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
-  - `DAFoam` for flow/adjoint
-  - `modopt` for optimization
-- Used discrete adjoint + autodiff for scalable gradients
-- Implemented **LSPG-type pROM** in SU2 for fast BWB optimization
+  - `DAFoam v4.0` for primal/adjoint
+  - `modopt` for gradient-based optimization
+- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
+- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
 
 <p align="center">
   <img src="/assets/figures/aso_rom.png" width="600"/>
