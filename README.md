@@ -40,7 +40,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ### 2. Aeroacoustics
 - Investigated **flow-induced noise** using large-eddy simulations (LES) coupled with:
-  - **FW-H solver** (e.g., PSU-WOPWOP)
+  - **Ffowcs Williams and Hawkings (FW-H) code** (e.g., PSU-WOPWOP)
   - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
  
 <p align="center">
@@ -53,8 +53,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
-- Implemented **Farassat’s 1A FW-H formulation** in **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
+- Implemented **Farassat’s 1A FW-H formulation** using **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
 
 <p align="center">
   <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="350"/>
