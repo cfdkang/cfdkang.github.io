@@ -36,7 +36,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ## 2. Aerodynamic Shape Optimization (ASO)
 
-- Built a modular **ASO framework** using **CSDL**, interfaced with **DAFoam** and key design components:
+- Built a modular **ASO framework** using **Computational System Design Language('CSDL')**, interfaced with **'DAFoam'** and key design components:
   - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
@@ -57,7 +57,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
-- Implemented **Farassat’s 1A FW-H formulation** in Python using **CSDL**, integrated with design optimization workflows
+- Implemented **Farassat’s 1A FW-H formulation** in `Python` using **`CSDL`**, integrated with design optimization workflows
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
 
 <p align="center">
