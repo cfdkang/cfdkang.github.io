@@ -54,6 +54,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
 - Participated in the summer program at Center for Turbulence Research (CTR) at Stanford for collaborative research on **wavelet-based pressure decomposition** for airfoil noise in low-Mach number flows
+- Achieved up to 5.5 dB reduction in sound pressure level (SPL) through flow misalignment, and 2.0 dB through trailing-edge morphing
 
 <p align="center">
   <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="350"/>
