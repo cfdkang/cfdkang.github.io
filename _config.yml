@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <header>
-      <img src="/assets/KDH_Google1.png" alt="Profile Photo" class="profile-img" />
+      <img src="/figures/KDH_Google1.png" alt="Profile Photo" class="profile-img" />
       <h1>Donghun Kang</h1>
       <p>Postdoctoral Researcher | UC San Diego</p>
     </header>
