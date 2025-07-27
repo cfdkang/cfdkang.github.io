@@ -15,10 +15,10 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
-- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, and airfoils using high-fidelity CFD.
+- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter jet (KF-21), VTOL aircraft, ducted fan with vane, and airfoils using high-fidelity CFD.
 - Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring driven by ducted fan with vane, and stability & control (S&C) analysis.
 - Modified and used solvers including:
-  - Home-grown FVM solver (hybrid RANS/LES)
+  - `Home-grown FVM flow solver` (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
@@ -33,7 +33,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
-    Figure. Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contours using Star-CCM+ (right). The ducted fan with vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
+    Figure. Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contours using Star-CCM+ (right). The ducted fan with control vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
   </em>
 </p>
 
