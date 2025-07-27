@@ -15,7 +15,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Modified and utilized CFD solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
-  - In-house Fortran-based FVM solver (hybrid RANS/LES)
+  - Home-grown FVM solver (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
 - Skilled in pre- and post-processing tools:
   - **CAD**: CATIA, OpenVSP   
@@ -30,7 +30,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine the impact of swirling flow on the vane using Star-CCM+ v15.02.</em>
+  <em>Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the home-grown FVM flow solver (left) and URANS simulation of ducted-fan vane to examine the impact of swirling flow on the vane using Star-CCM+ v15.02.</em>
 </p>
 
 
