@@ -12,7 +12,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ## Research Interests
 
-### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
+### 1. Aerodynamics and Computational Fluid Dynamics
 
 - Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, BWB, and airfoils using high-fidelity CFD.
 - Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability & control (S&C) analysis.
@@ -31,7 +31,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
-    Figure. Numerical simulations for Hybrid RANS/LES of buffeting of a generic aircraft using home-grown FVM flow solver (left) and URANS of swirling-flow interaction of ducted-fan vane using Star-CCM+ (right). The ducted-fan vane is a system for thrust generation and roll & yaw maneuvering during hovering and transitional flight regimes.
+    Figure. Numerical simulations with Hybrid RANS/LES turbulence model for aircraft buffeting predictions using home-grown FVM flow solver (left) and URANS of swirling-flow interaction for the ducted fan with vane (contour of axial-velocity distribution) using Star-CCM+ (right). The ducted fan with vane is a system for generating thrust and performing roll & yaw maneuvers of the unmanned VTOL aircraft during hovering and transitional flight operations.
   </em>
 </p>
 
@@ -43,7 +43,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
-- Implemented **Farassat’s 1A FW-H formulation** in `Python` using `CSDL`, integrated with design optimization workflows
+- Implemented **Farassat’s 1A FW-H formulation** in **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
 
 <p align="center">
@@ -58,7 +58,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 3. Aerodynamic Shape Optimization (ASO)
-- Built a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
+- Estabilshed a modular **ASO framework** using **`CSDL`** , interfaced with **`DAFoam`** and key design components:
   - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
