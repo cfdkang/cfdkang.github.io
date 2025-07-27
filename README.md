@@ -17,10 +17,26 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (adjoint)
   - In-house Fortran-based FVM solver
+  - `Star-CCM+ v15.02`
 - Proficient in:
   - **CAD**: CATIA, OpenVSP   
   - **Meshing**: pyHyp, Pointwise, Gmsh  
   - **Visualization**: Tecplot, ParaView, FieldView
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="./assets/figures/Airplane1_jet.pdf" width="300"/></td>
+      <td><img src="./assets/figures/Airplane2_vtol.pdf" width="300"/></td>
+    </tr>
+  </table>
+  <br/>
+  <em>Figure. Hybrid RANS/LES simulation of a generic fighter jet (KF-21) for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine flow interference using `Star-CCM+ v15.02` software.
+    
+    
+    SPOD (St=15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
+</p>
+
 
 ## 2. Aerodynamic Shape Optimization (ASO)
 
@@ -49,7 +65,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. SPOD (St=15)of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
+  <em>Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.</em>
 </p>
 
 
