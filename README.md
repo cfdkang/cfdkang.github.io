@@ -32,8 +32,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - **Visualization**: Tecplot, ParaView, FieldView
 
 <div align="center">
-  <img src="/assets/figures/Airplane1_jet.png" width="300"/>
-  <img src="/assets/figures/Airplane2_vtol.png" width="300"/>
+  <img src="/assets/figures/Airplane1_jet.png" width="500"/>
+  <img src="/assets/figures/Airplane2_vtol.png" width="500"/>
   <br/>
   <em>
     Figure. Hybrid RANS/LES (left) and URANS (right) simulations of aircraft buffeting and swirling-flow interaction using custom solvers and Star-CCM+.
@@ -51,8 +51,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Collaborated with Stanford CTR on **wavelet-based pressure decomposition**
 
 <div align="center">
-  <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="300"/>
-  <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="300"/>
+  <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="500"/>
+  <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="500"/>
   <br/>
   <em>
     Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise coherence is key for noise reduction.
