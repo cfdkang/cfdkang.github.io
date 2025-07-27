@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="/assets/KDH_Google1.png" width="140px" style="border-radius: 50%; display: block;" />
-</p>
+<div style="display: flex; align-items: center; margin-top: 1em; margin-bottom: 1.5em;">
+  <img src="/assets/KDH_Google1.png" width="130px" style="border-radius: 50%; margin-right: 20px;" />
+  <div>
+    <!-- 이름과 소속은 상단에 자동 출력되므로 여기선 생략 -->
+  </div>
+</div>
 
-<h2 align="center">Donghun Kang</h2>
-<p align="center"><em>Postdoctoral Researcher · UC San Diego</em></p>
-
----
+<div style="color: black;">
 
 ## About Me
 
@@ -19,71 +19,69 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
-- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including generic fighter aircraft (KF-21), VTOL aircraft, ducted fan and vane, blended-wing body (BWB), and canonical airfoils using high-fidelity CFD simulations.
+- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, BWB, and airfoils using high-fidelity CFD.
 - Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability & control (S&C) analysis.
-- Modified and utilized CFD solvers including:
+- Modified and used solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
   - Home-grown FVM solver (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
-- Skilled in pre- and post-processing tools:
+- Pre/post-processing tools:
   - **CAD**: CATIA, OpenVSP  
   - **Meshing**: pyHyp, Pointwise, Gmsh  
   - **Visualization**: Tecplot, ParaView, FieldView
 
 <div align="center">
-  <div style="display: inline-block; text-align: center;">
-    <img src="./assets/figures/Airplane1_jet.png" width="300"/>
-    <img src="./assets/figures/Airplane2_vtol.png" width="300"/>
-    <br/>
-    <em style="font-size: 0.95em;">
-      Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting (left) and URANS simulation of ducted-fan vane to examine swirling flow impact using Star-CCM+ (right).
-    </em>
-  </div>
+  <img src="/assets/figures/Airplane1_jet.png" width="300"/>
+  <img src="/assets/figures/Airplane2_vtol.png" width="300"/>
+  <br/>
+  <em>
+    Figure. Hybrid RANS/LES (left) and URANS (right) simulations of aircraft buffeting and swirling-flow interaction using custom solvers and Star-CCM+.
+  </em>
 </div>
 
 ---
 
 ### 2. Aeroacoustics
 
-- Investigated **airframe noise** using large-eddy simulations (LES) coupled with:
-  - **FW-H solver** (e.g., PSU-WOPWOP)
-  - Analytical and empirical models (e.g., Amiet's formulation, BPM model)
-- Developed spectral tools for acoustic analysis: cross-spectrum method
-- Applied time-frequency techniques: SPOD, DMD, wavelet denoising, and wavenumber-frequency analysis
-- Implemented **Farassat’s 1A FW-H formulation** in Python using `CSDL` and integrated it with design workflows
-- Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise at low Mach number
+- Simulated **airframe noise** using LES + FW-H solvers (e.g., PSU-WOPWOP)
+- Applied empirical models (e.g., Amiet, BPM) for validation
+- Developed acoustic tools: cross-spectrum analysis, SPOD, DMD, wavelet denoising
+- Implemented **Farassat’s 1A formulation** in Python with `CSDL` and used in design loops
+- Collaborated with Stanford CTR on **wavelet-based pressure decomposition**
 
 <div align="center">
-  <div style="display: inline-block; text-align: center;">
-    <img src="./assets/figures/spod_1_sweep0deg_1kHz.gif" width="300"/>
-    <img src="./assets/figures/spod_2_sweep45deg_1kHz.gif" width="300"/>
-    <br/>
-    <em style="font-size: 0.95em;">
-      Figure. SPOD (St ≈ 15) of trailing-edge noise sources under straight flow (left) and 45° misaligned flow (right). Spanwise anti-phase coherence plays a key role in noise reduction.
-    </em>
-  </div>
+  <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="300"/>
+  <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="300"/>
+  <br/>
+  <em>
+    Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise coherence is key for noise reduction.
+  </em>
 </div>
 
 ---
 
 ### 3. Aerodynamic Shape Optimization (ASO)
 
-- Built a modular **ASO framework** using `CSDL`, interfaced with:
-  - `lsdo_geo` for geometry parameterization
+- Built a modular ASO pipeline using `CSDL` + `DAFoam`, including:
+  - `lsdo_geo` for geometry
   - `IDWarp` for mesh deformation
-  - `DAFoam` for primal/adjoint flow solution
-  - `modopt` for gradient-based optimization
-- Applied **discrete adjoint methods** and **automatic differentiation** for scalable gradient evaluation
-- Implemented **LSPG-type projection-based reduced-order models (pROM)** in SU2 for rapid BWB optimization
+  - `DAFoam` for flow/adjoint
+  - `modopt` for optimization
+- Used discrete adjoint + autodiff for scalable gradients
+- Implemented **LSPG-type pROM** in SU2 for fast BWB optimization
 
 <p align="center">
-  <img src="./assets/figures/aso_rom.png" width="600"/>
+  <img src="/assets/figures/aso_rom.png" width="600"/>
   <br/>
-  <em>Figure. Comparison of Cp, state vector, and lift coefficient between FOM and pROM in SU2. pROM achieves an 11.6× speedup at the prediction point.</em>
+  <em>
+    Figure. Comparison between FOM and pROM in SU2. pROM yields 11.6× speedup with consistent accuracy.
+  </em>
 </p>
 
 ---
 
-📄 [View Full CV](./CV_Donghun_Kang_Git.pdf)  
-📧 [Email me](mailto:d8kang@ucsd.edu)
+* For the full list of journal papers and conference proceedings, please see the [CV](./CV_Donghun_Kang_Git.pdf)  
+* For questions or collaborations, feel free to reach out via [email](mailto:d8kang@ucsd.edu).*
+
+</div>
