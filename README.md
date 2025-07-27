@@ -31,7 +31,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine interference effect using `Star-CCM+ v15.02`.</em>
+  <em>Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine interference effect using Star-CCM+ v15.02.</em>
 </p>
 
 
@@ -47,7 +47,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 <p align="center">
   <img src="./assets/figures/aso_rom.png" width="600"/>
   <br/>
-  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model and pROM in SU2 v8.2.0.</em>
+  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2 v8.2.0. pROM achieves an 11.6x speedup compared to the FOM at the prediction point.</em>
 </p>
 
 ## 3. Aeroacoustics
@@ -68,7 +68,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.</em>
+  <em>Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right) using OpenFOAM v2012. Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.</em>
 </p>
 
 ---
