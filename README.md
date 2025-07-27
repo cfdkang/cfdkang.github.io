@@ -54,7 +54,6 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
 - Participated in the summer program at Center for Turbulence Research (CTR) at Stanford for collaborative research on **wavelet-based pressure decomposition** for airfoil noise in low-Mach number flows
-- Implemented **Farassat’s 1A FW-H formulation** using **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
 
 <p align="center">
   <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="350"/>
@@ -74,6 +73,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
+- Implemented **Farassat’s 1A FW-H formulation** using **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
 
 <p align="center">
