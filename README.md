@@ -55,10 +55,10 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Investigated **airframe noise** using large-eddy simulations (LES) coupled with:
   - **FW-H solver** (e.g., PSU-WOPWOP)
   - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
-- Developed data-driven spectral tools for acoustic analysis:
-  - SPOD, DMD, wavelet transform, wavenumber-frequency analysis
-- Implemented **Farassat’s 1A FW-H formulation** in Python using **CSDL**, integrated with design optimization workflows.
-- Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows.
+- Developed spectral tool for acoustic analysis: cross-spectrum method
+- Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
+- Implemented **Farassat’s 1A FW-H formulation** in Python using **CSDL**, integrated with design optimization workflows
+- Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
 
 <p align="center">
   <table>
