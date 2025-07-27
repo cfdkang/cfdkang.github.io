@@ -20,7 +20,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Modified and used solvers including:
   - `Home-grown FVM flow solver` (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
-  - `OpenFOAM v2012` (wall-resolved LES)
+  - `OpenFOAM v2012` (LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
   
 - Pre/post-processing tools:
@@ -40,7 +40,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 2. Aeroacoustics
-- Investigated **flow-induced noise** using `OpenFOAM` solver coupled with:
+  - Performed large-eddy simulations (LES) of **flow-induced noise** using `OpenFOAM` solver coupled with:
   - Ffowcs Williams and Hawkings (FW-H) code (e.g., PSU-WOPWOP)
   - Analytical and empirical model (e.g., Amiet's theory, Brooks, Pope, and Marcolini (BPM) model)
  
