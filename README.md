@@ -11,7 +11,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ## 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
 - Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including generic fighter aircraft (KF-21), VTOL aircraft, ducted fan and vane, blended-wing body (BWB), and canonical airfoils using high-fidelity CFD simulations.
-- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability/control (S&C) analysis.
+- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability&control (S&C) analysis.
 - Modified and utilized CFD solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
@@ -31,28 +31,11 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   </table>
   <br/>
   <em>
-    Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the home-grown FVM flow solver (left) and URANS simulation of ducted-fan vane to examine the impact of swirling flow on the vane using Star-CCM+ v15.02. Ducted fan-vane is a system for thrust generation and roll/yaw maneuvering of the VTOL aircraft during hovering and transitional flight regimes.
+    Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the home-grown FVM flow solver (left) and URANS simulation of ducted-fan vane to examine the impact of swirling flow on the vane using Star-CCM+. Ducted fan-vane is a system for thrust generation and roll/yaw maneuvering of the VTOL aircraft during hovering and transitional flight regimes.
   </em>
 </div>
 
-
-## 2. Aerodynamic Shape Optimization (ASO)
-
-- Built a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
-  - `lsdo_geo` for geometric parametrization
-  - `IDWarp` for mesh deformation
-  - `DAFoam v4.0` for primal/adjoint
-  - `modopt` for gradient-based optimization
-- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
-- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
-
-<p align="center">
-  <img src="./assets/figures/aso_rom.png" width="600"/>
-  <br/>
-  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup compared to the FOM at the prediction point.</em>
-</p>
-
-## 3. Aeroacoustics
+## 2. Aeroacoustics
 
 - Investigated **airframe noise** using large-eddy simulations (LES) coupled with:
   - **FW-H solver** (e.g., PSU-WOPWOP)
@@ -71,9 +54,26 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   </table>
   <br/>
   <em>
-    Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right) using OpenFOAM v2012. Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.
+    Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.
   </em>
 </div>
+
+
+## 3. Aerodynamic Shape Optimization (ASO)
+
+- Built a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
+  - `lsdo_geo` for geometric parametrization
+  - `IDWarp` for mesh deformation
+  - `DAFoam v4.0` for primal/adjoint
+  - `modopt` for gradient-based optimization
+- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
+- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
+
+<p align="center">
+  <img src="./assets/figures/aso_rom.png" width="600"/>
+  <br/>
+  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup compared to the FOM at the prediction point.</em>
+</p>
 
 ---
 
