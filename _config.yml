@@ -1,4 +1,49 @@
-title: Donghun Kang
-logo: /assets/KDH_Google1.png
-show_downloads: false
-theme: jekyll-theme-modernist
+<!-- index.html or README.md (if used as homepage) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donghun Kang | Portfolio</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/assets/KDH_Google1.png" alt="Profile Photo" class="profile-img" />
+      <h1>Donghun Kang</h1>
+      <p>Postdoctoral Researcher | UC San Diego</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at UC San Diego, working with Dr. John Hwang in the Large-Scale Design Optimization (LSDO) Lab since 2024. I earned my Ph.D. from UC Davis under the guidance of Dr. Seongkyu Lee.
+      </p>
+      <p>
+        My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics (CFD). I aim to elucidate the fundamental mechanisms of noise generation in turbulent flows and develop efficient methods for optimizing aircraft performance and design.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Highlights</h2>
+      <div class="image-row">
+        <img src="./assets/figures/Airplane1_jet.png" alt="Jet" />
+        <img src="./assets/figures/Airplane2_vtol.png" alt="VTOL" />
+      </div>
+      <p class="caption">
+        <em>
+          Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the home-grown FVM flow solver (left) and URANS simulation of ducted-fan vane using Star-CCM+ (right).
+        </em>
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        📄 <a href="./CV_Donghun_Kang_Git.pdf">View Full CV</a> <br />
+        📧 <a href="mailto:d8kang@ucsd.edu">d8kang@ucsd.edu</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
