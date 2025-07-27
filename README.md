@@ -33,7 +33,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
-    Figure. Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contour using Star-CCM+ (right). The ducted fan with control vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
+    Figure. 1 Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contour using Star-CCM+ (right). The ducted fan with control vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
   </em>
 </p>
 
@@ -48,7 +48,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/TEN_scattering.gif" width="600"/>
   <br/>
   <em>
-    Figure. Sound wave propagation due to scattering of turbulent boundary layer flow around NACA 0012 airfoil.
+    Figure. 2 Sound wave propagation due to scattering of turbulent boundary layer flow around NACA 0012 airfoil.
   </em>
 </p>
 
@@ -62,7 +62,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="350"/>
   <br/>
   <em>
-    Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise anti-phase coherent convection under flow misalignment is critical for the noise reduction mechanism.
+    Figure. 2 SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise anti-phase coherent convection under flow misalignment is critical for the noise reduction mechanism.
   </em>
 </p>
 
@@ -82,7 +82,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/aso_rom.png" width="600"/>
   <br/>
   <em>
-    Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup with consistent accuracy at the prediction point.
+    Figure. 4 Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup with consistent accuracy at the prediction point.
   </em>
 </p>
 
