@@ -40,7 +40,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 2. Aeroacoustics
-  - Performed large-eddy simulations (LES) of **flow-induced noise** using `OpenFOAM` solver coupled with:
+- Investigated **flow-induced noise** using `OpenFOAM` coupled with:
   - Ffowcs Williams and Hawkings (FW-H) code (e.g., PSU-WOPWOP)
   - Analytical and empirical model (e.g., Amiet's theory, Brooks, Pope, and Marcolini (BPM) model)
  
