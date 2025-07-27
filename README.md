@@ -24,7 +24,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
   
 - Pre/post-processing tools:
-  - **CAD**: CATIA, OpenVSP  
+  - **CAD modeling**: CATIA, OpenVSP  
   - **Meshing**: Gmsh, Pointwise, pyHyp
   - **Visualization**: Tecplot, ParaView, FieldView
 
