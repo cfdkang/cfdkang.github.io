@@ -69,7 +69,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 3. Aerodynamic Shape Optimization (ASO)
-- Estabilshed a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
+- Estabilshed a modular **ASO framework** using **Computational System Design Language (`CSDL`)**, interfaced with **`DAFoam`** and key design components:
   - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
