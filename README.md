@@ -15,8 +15,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
-- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter jet (KF-21), VTOL aircraft, ducted fan with vane, and airfoils using high-fidelity CFD.
-- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring driven by ducted fan with vane, and stability & control (S&C) analysis.
+- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter jet (KF-21), VTOL aircraft, ducted fan with vane, and airfoils using high-fidelity CFD
+- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring driven by ducted fan with vane, and stability & control (S&C) analysis
 - Modified and used solvers including:
   - `Home-grown FVM flow solver` (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
@@ -74,9 +74,9 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
-- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
+- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster
 - Implemented **Farassat’s 1A FW-H formulation** using `CSDL` for multidisciplinary design optimization (MDO)
-- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft.
+- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft
 
 <p align="center">
   <img src="/assets/figures/aso_rom.png" width="600"/>
