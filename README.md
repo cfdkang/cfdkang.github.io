@@ -1,11 +1,6 @@
-<div style="display: flex; align-items: center; margin-top: 1em; margin-bottom: 1.5em;">
+<p align="left">
   <img src="/assets/KDH_Google1.png" width="130px" style="border-radius: 50%; margin-right: 20px;" />
-  <div>
-    <!-- 이름과 소속은 상단에 자동 출력되므로 여기선 생략 -->
-  </div>
-</div>
-
-<div style="color: black;">
+</p>
 
 ## About Me
 
@@ -31,14 +26,14 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - **Meshing**: pyHyp, Pointwise, Gmsh  
   - **Visualization**: Tecplot, ParaView, FieldView
 
-<div align="center">
+<p align="center">
   <img src="/assets/figures/Airplane1_jet.png" width="350"/>
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
     Figure. Hybrid RANS/LES (left) and URANS (right) simulations of aircraft buffeting and swirling-flow interaction using custom solvers and Star-CCM+.
   </em>
-</div>
+</p>
 
 ---
 
@@ -50,14 +45,14 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Implemented **Farassat’s 1A formulation** in Python with `CSDL` and used in design loops
 - Collaborated with Stanford CTR on **wavelet-based pressure decomposition**
 
-<div align="center">
+<p align="center">
   <img src="/assets/figures/spod_1_sweep0deg_1kHz.gif" width="350"/>
   <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="350"/>
   <br/>
   <em>
     Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise coherence is key for noise reduction.
   </em>
-</div>
+</p>
 
 ---
 
@@ -84,4 +79,4 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 * For the full list of journal papers and conference proceedings, please see the [CV](./CV_Donghun_Kang_Git.pdf)  
 * For questions or collaborations, feel free to reach out via [email](mailto:d8kang@ucsd.edu).
 
-</div>
+
