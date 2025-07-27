@@ -6,17 +6,17 @@
 
 I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at UC San Diego, as a member of Dr. John Hwang's Large-Scale Design Optimization (LSDO) Lab since 2024. I earned my Ph.D. from UC Davis under the guidance of Dr. Seongkyu Lee.
 
-My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics (CFD). I aim to conduct research on problems related to fluid dynamics, turbulence, and noise reduction, as well as optimization of aircraft design and performance, by integrating theoretical development, advanced numerical techniques, and practical application.
+My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics. I aim to conduct research on problems related to fluid dynamics, turbulence, and noise reduction, as well as optimization of aircraft design and performance, by integrating theoretical development, advanced numerical techniques, and practical application.
 
 
 ---
 
 ## Research Interests
 
-### 1. Aerodynamics and Computational Fluid Dynamics
+### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
-- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, BWB, and airfoils using high-fidelity CFD.
-- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability & control (S&C) analysis.
+- Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, and airfoils using high-fidelity CFD.
+- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring driven by ducted fan with vane, and stability & control (S&C) analysis.
 - Modified and used solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
@@ -39,9 +39,18 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 2. Aeroacoustics
-- Investigated **airframe noise** using large-eddy simulations (LES) coupled with:
+- Investigated **flow-induced noise** using large-eddy simulations (LES) coupled with:
   - **FW-H solver** (e.g., PSU-WOPWOP)
   - Analytical and empirical model (e.g., Amiet's formulation, Brooks, Pope, and Marcolini (BPM) model)
+ 
+<p align="center">
+  <img src="/assets/figures/TEN_scattering.gif" width="600"/>
+  <br/>
+  <em>
+    Figure. Sound wave propagation due to scattering of turbulent boundary layer flow around NACA 0012 airfoil.
+  </em>
+</p>
+
 - Developed spectral tool for acoustic analysis: cross-spectrum method
 - Utilized advanced time-frequency methods: Spectral POD (SPOD), DMD, wavelet-denoising algorithm, wavenumber-frequency spectrum
 - Implemented **Farassat’s 1A FW-H formulation** in **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
