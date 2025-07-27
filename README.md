@@ -49,7 +49,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. SPOD of trailing-edge noise source structures under baselien streamwise flow (left) and 45-deg misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
+  <em>Figure. SPOD (St=15)of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
 </p>
 
 
