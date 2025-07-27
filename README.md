@@ -10,14 +10,13 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ## 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
-- Developed and validated high-fidelity CFD simulations for a wide range of aerospace configurations, including VTOL aircraft, ducted fan and vane, blended-wing body (BWB) designs, and generic fighter aircraft (KF-21).
-- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability/control (S&C) analysis using **Star-CCM+**, **OpenFOAM**, and **DAFoam**.
-- Investigated flow phenomena across hover, transition, and cruise regimes, with a focus on vortex flows, flow interference, and buffet at high angles of attack.
+- Investigated and validated unsteady flow physics under turbulent flows for a wide range of aerospace configurations, including generic fighter aircraft (KF-21), VTOL aircraft, ducted fan and vane, blended-wing body (BWB), and canonical airfoils using high-fidelity CFD simulations.
+- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability/control (S&C) analysis using **Star-CCM+**.
 - Modified and utilized CFD solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
-  - `DAFoam v4.0`, `SU2 v8.2.0` (adjoint)
-  - In-house Fortran-based FVM solver
-  - `Star-CCM+ v15.02`
+  - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
+  - In-house Fortran-based FVM solver (hybrid RANS/LES)
+  - `Star-CCM+ v15.02` (unsteady RANS)
 - Proficient in:
   - **CAD**: CATIA, OpenVSP   
   - **Meshing**: pyHyp, Pointwise, Gmsh  
