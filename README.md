@@ -76,7 +76,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `modopt` for gradient-based optimization
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
 - Implemented **Farassat’s 1A FW-H formulation** using `CSDL` for multidisciplinary design optimization (MDO)
-- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
+- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft.
 
 <p align="center">
   <img src="/assets/figures/aso_rom.png" width="600"/>
