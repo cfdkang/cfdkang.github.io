@@ -41,8 +41,14 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `pyHyp` for volume meshing
   - `IDWarp` for mesh deformation
   - `modopt` for gradient-based optimization
-- Implemented and tested **projection-based reduced-order models (ROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
+- Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluter.
+
+<p align="center">
+  <img src="./assets/figures/aso_rom.png" width="600"/>
+  <br/>
+  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model and pROM in SU2 v8.2.0.</em>
+</p>
 
 ## 3. Aeroacoustics
 
@@ -64,8 +70,6 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <br/>
   <em>Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.</em>
 </p>
-
-
 
 ---
 
