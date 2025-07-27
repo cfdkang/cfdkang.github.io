@@ -17,7 +17,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
   - In-house Fortran-based FVM solver (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
-- Proficient in:
+- Skilled in pre- and post-processing tools:
   - **CAD**: CATIA, OpenVSP   
   - **Meshing**: pyHyp, Pointwise, Gmsh  
   - **Visualization**: Tecplot, ParaView, FieldView
