@@ -18,10 +18,11 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including fighter aircraft (KF-21), VTOL, ducted fans, and airfoils using high-fidelity CFD.
 - Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring driven by ducted fan with vane, and stability & control (S&C) analysis.
 - Modified and used solvers including:
-  - `OpenFOAM v2012` (wall-resolved LES)
-  - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
   - Home-grown FVM solver (hybrid RANS/LES)
   - `Star-CCM+ v15.02` (unsteady RANS)
+  - `OpenFOAM v2012` (wall-resolved LES)
+  - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
+  
 - Pre/post-processing tools:
   - **CAD**: CATIA, OpenVSP  
   - **Meshing**: Gmsh, Pointwise, pyHyp
