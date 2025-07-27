@@ -42,13 +42,6 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows.
 
 <p align="center">
-  <img src="./assets/figures/Fig_SPOD.png" width="600"/>
-  <br/>
-  <em> Figure. SPOD of trailing-edge noise source structures under baseline (left) and flow misalignment (right)</em>
-</p>
-
-
-<p align="center">
   <table>
     <tr>
       <td><img src="./assets/figures/spod_1_sweep0deg_1kHz.gif" width="300"/></td>
@@ -56,7 +49,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. SPOD of trailing-edge noise source structures under baselien streamwise flow (left) and 45-deg misaligned flow (right)</em>
+  <em>Figure. SPOD of trailing-edge noise source structures under baselien streamwise flow (left) and 45-deg misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
 </p>
 
 
