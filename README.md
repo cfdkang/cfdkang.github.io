@@ -62,7 +62,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="350"/>
   <br/>
   <em>
-    Figure. 2 SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise anti-phase coherent convection under flow misalignment is critical for the noise reduction mechanism.
+    Figure. 3 SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise anti-phase coherent convection under flow misalignment is critical for the noise reduction mechanism.
   </em>
 </p>
 
