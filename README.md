@@ -11,7 +11,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ---
 
-## Research Topics
+## Expertise and Interests
 
 ### 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
