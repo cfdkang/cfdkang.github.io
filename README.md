@@ -37,16 +37,16 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ## 2. Aerodynamic Shape Optimization (ASO)
 
 - Built a modular **ASO framework** using **CSDL**, interfaced with **DAFoam** and key design components:
-  - `pyHyp` for volume meshing
+  - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
+  - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
-- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluter.
 
 <p align="center">
   <img src="./assets/figures/aso_rom.png" width="600"/>
   <br/>
-  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2 v8.2.0. pROM achieves an 11.6x speedup compared to the FOM at the prediction point.</em>
+  <em> Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup compared to the FOM at the prediction point.</em>
 </p>
 
 ## 3. Aeroacoustics
