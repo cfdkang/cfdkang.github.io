@@ -33,7 +33,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
-    Figure. Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contours using Star-CCM+ (right). The ducted fan with control vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
+    Figure. Numerical simulations using a hybrid RANS/LES turbulence model for predicting aircraft buffeting with a home-grown FVM flow solver (left), and URANS simulations of swirling-flow interaction in a ducted fan with vane, showing axial velocity contour using Star-CCM+ (right). The ducted fan with control vane is a system designed for thrust generation and roll & yaw maneuvering of an unmanned VTOL aircraft during hovering and transitional flight operations.
   </em>
 </p>
 
