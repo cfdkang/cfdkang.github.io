@@ -31,7 +31,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/Airplane2_vtol.png" width="350"/>
   <br/>
   <em>
-    Figure. Hybrid RANS/LES (left) and URANS (right) simulations of aircraft buffeting and swirling-flow interaction using custom solvers and Star-CCM+.
+    Figure. Numerical simulations for Hybrid RANS/LES of aircraft buffeting using home-grown FVM flow solver (left) and URANS of swirling-flow interaction using Star-CCM+ (right).
   </em>
 </p>
 
@@ -51,7 +51,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/spod_2_sweep45deg_1kHz.gif" width="350"/>
   <br/>
   <em>
-    Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise coherence is key for noise reduction.
+    Figure. SPOD (St ≈ 15) of noise source structures under straight (left) and 45° misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.
   </em>
 </p>
 
@@ -70,7 +70,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/aso_rom.png" width="600"/>
   <br/>
   <em>
-    Figure. Comparison between FOM and pROM in SU2. pROM yields 11.6× speedup with consistent accuracy.
+    Figure. Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup with consistent accuracy at the prediction point.
   </em>
 </p>
 
