@@ -11,7 +11,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ## 1. Aerodynamics and Computational Fluid Dynamics (CFD)
 
 - Investigated unsteady and turbulent flow physics for a wide range of aerospace configurations, including generic fighter aircraft (KF-21), VTOL aircraft, ducted fan and vane, blended-wing body (BWB), and canonical airfoils using high-fidelity CFD simulations.
-- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability/control (S&C) analysis using **Star-CCM+**.
+- Performed 6-DOF aerodynamic simulations involving control surface deflection, thrust vectoring, and stability/control (S&C) analysis.
 - Modified and utilized CFD solvers including:
   - `OpenFOAM v2012` (wall-resolved LES)
   - `DAFoam v4.0`, `SU2 v8.2.0` (RANS and adjoint)
