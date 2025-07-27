@@ -26,8 +26,8 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 <p align="center">
   <table>
     <tr>
-      <td><img src="./assets/figures/Airplane1_jet.pdf" width="300"/></td>
-      <td><img src="./assets/figures/Airplane2_vtol.pdf" width="300"/></td>
+      <td><img src="./assets/figures/Airplane1_jet.png" width="300"/></td>
+      <td><img src="./assets/figures/Airplane2_vtol.png" width="300"/></td>
     </tr>
   </table>
   <br/>
