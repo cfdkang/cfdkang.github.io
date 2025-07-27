@@ -62,16 +62,18 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 - Implemented **Farassat’s 1A FW-H formulation** in `Python` using **`CSDL`**, integrated with design optimization workflows
 - Collaborated with **Stanford CTR** on **wavelet-based pressure decomposition** for airfoil noise in low-Mach-number flows
 
-<p align="center">
-  <table>
+<div style="text-align: center;">
+  <table style="margin: 0 auto;">
     <tr>
       <td><img src="./assets/figures/spod_1_sweep0deg_1kHz.gif" width="300"/></td>
       <td><img src="./assets/figures/spod_2_sweep45deg_1kHz.gif" width="300"/></td>
     </tr>
   </table>
   <br/>
-  <em>Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right) using OpenFOAM v2012. Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.</em>
-</p>
+  <em>
+    Figure. SPOD (St &asymp; 15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right) using OpenFOAM v2012. Spanwise anti-phase coherent flow is critical for the noise reduction mechanism.
+  </em>
+</div>
 
 ---
 
