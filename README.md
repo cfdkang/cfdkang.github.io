@@ -31,10 +31,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
     </tr>
   </table>
   <br/>
-  <em>Figure. Hybrid RANS/LES simulation of a generic fighter jet (KF-21) for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine flow interference using `Star-CCM+ v15.02` software.
-    
-    
-    SPOD (St=15) of trailing-edge noise source structures under straight flow (left) and 45-degree misaligned flow (right). Spanwise anti-phase coherent flow is critical for the noise reduction mechanism</em>
+  <em>Figure. Hybrid RANS/LES simulation of a generic aircraft for predicting vertical-tail buffeting using the in-house FVM flow solver (left) and URANS simulation of ducted-fan vane to examine interference effect using `Star-CCM+ v15.02`.</em>
 </p>
 
 
