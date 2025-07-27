@@ -23,7 +23,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `Star-CCM+ v15.02` (unsteady RANS)
 - Pre/post-processing tools:
   - **CAD**: CATIA, OpenVSP  
-  - **Meshing**: pyHyp, Pointwise, Gmsh  
+  - **Meshing**: Gmsh, Pointwise, pyHyp
   - **Visualization**: Tecplot, ParaView, FieldView
 
 <p align="center">
