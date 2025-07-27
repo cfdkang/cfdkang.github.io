@@ -67,13 +67,13 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 ---
 
 ### 3. Aerodynamic Shape Optimization (ASO)
-- Estabilshed a modular **ASO framework** using **`CSDL`** , interfaced with **`DAFoam`** and key design components:
+- Estabilshed a modular **ASO framework** using **Computational System Design Language (`CSDL`)** , interfaced with **`DAFoam`** and key design components:
   - `lsdo_geo` for geometric parametrization
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster.
-- Implemented **Farassat’s 1A FW-H formulation** using **Computational System Design Language (`CSDL`)** for multisciriplinary design optimization
+- Implemented **Farassat’s 1A FW-H formulation** using ** `CSDL`** for multisciriplinary design optimization
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of BWB aircraft.
 
 <p align="center">
