@@ -88,7 +88,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
 
 ---
 
-* For a complete overview of my professional experience and publications, please see the [CV](./CV_Donghun_Kang_Git.pdf).
+* For a complete overview of my professional experience and publications, please see the [CV](./CV_Donghun_Kang.pdf).
 * For any questions, feel free to reach out via [d8kang@ucsd.edu](mailto:d8kang@ucsd.edu).
 
 
