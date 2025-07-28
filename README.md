@@ -75,7 +75,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster
-- Developed a `CSDL`-based implementation of **Farassat’s 1A FW-H formulation** to integrate time-domain acoustic analogy into multidisciplinary design optimization (MDO) framework
+- Developed a `CSDL`-based implementation of **Farassat’s 1A FW-H formulation** and Fourier transform to integrate the advanced acoustic method into multidisciplinary design optimization (MDO)
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft
 
 <p align="center">
