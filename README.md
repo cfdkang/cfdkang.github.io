@@ -1,8 +1,9 @@
 <p align="left">
   <img src="/assets/KDH_Google1.png" width="130px" style="border-radius: 50%; margin-right: 20px;" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </p>
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 
 ## About Me
