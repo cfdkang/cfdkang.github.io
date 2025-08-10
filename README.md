@@ -75,7 +75,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
 <p align="center">
-  <img src="/assets/figures/aso_xdsm.pdf" width="600"/>
+  <img src="/assets/figures/aso_xdsm.png" width="600"/>
   <br/>
   <em>
     Figure. 4 Extended design-structure matrix for aerodynamic shape optimization. $x$ : design variables.
