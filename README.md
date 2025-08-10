@@ -74,6 +74,14 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   - `IDWarp` for mesh deformation
   - `DAFoam v4.0` for primal/adjoint
   - `modopt` for gradient-based optimization
+<p align="center">
+  <img src="/assets/figures/aso_rom.png" width="600"/>
+  <br/>
+  <em>
+    Figure. 4 Extended design-structure matrix for aerodynamic shape optimization. $x$: design variables.
+  </em>
+</p>
+
 - Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster
 - Developed a `CSDL`-based implementation of **Farassat’s 1A FW-H formulation** and Fourier transform to integrate the advanced acoustic method into multidisciplinary design optimization (MDO)
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft
@@ -82,7 +90,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/aso_rom.png" width="600"/>
   <br/>
   <em>
-    Figure. 4 Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup with consistent accuracy at the prediction point.
+    Figure. 5 Comparison of pressure coefficient, state vector, and lift coefficient between full-order model (FOM) and pROM in SU2. pROM achieves an 11.6x speedup with consistent accuracy at the prediction point.
   </em>
 </p>
 
