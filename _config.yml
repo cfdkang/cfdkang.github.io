@@ -1,7 +1,3 @@
 title: Donghun Kang
 description: Postdoctoral Researcher | UC San Diego
 theme: jekyll-theme-cayman
-
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
