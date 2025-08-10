@@ -81,11 +81,10 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/aso_xdsm.png" width="600"/>
   <br/>
   <em>
-    Figure. 4 Extended design-structure matrix for the ASO framework. $x$ : design variables.
+    Figure. 4 Extended design-structure matrix for the ASO framework.
   </em>
 </p>
 
-- Utilized **discrete adjoint methods** and **automatic differentiation** for efficient gradient evaluation and design iteration under HPC cluster
 - Developed a `CSDL`-based implementation of **Farassat’s 1A FW-H formulation** and Fourier transform to integrate the advanced acoustic method into multidisciplinary design optimization (MDO)
 - Implemented and tested **projection-based reduced-order models (pROM)** (LSPG-type) in SU2 for rapid shape optimization of a generic aircraft
 
