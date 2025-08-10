@@ -78,7 +78,7 @@ My research lies at the intersection of aeroacoustics and aerodynamic shape opti
   <img src="/assets/figures/aso_xdsm.png" width="600"/>
   <br/>
   <em>
-    Figure. 4 Extended design-structure matrix for aerodynamic shape optimization. $x$ : design variables.
+    Figure. 4 Extended design-structure matrix for the ASO framework. $x$ : design variables.
   </em>
 </p>
 
