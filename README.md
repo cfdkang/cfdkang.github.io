@@ -2,13 +2,10 @@
   <img src="/assets/KDH_Google1.png" width="130px" style="border-radius: 50%; margin-right: 20px;" />
 </p>
 
-
-
 ## About Me
+I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at The Ohio State University, working with Dr. Lian Duan since 2025. Previously, I worked as a postdoctoral researcher as a member of Dr. John Hwang's Large-Scale Design Optimization (LSDO) Lab from October 2024 to September 2025. I earned my Ph.D. from UC Davis under the guidance of Dr. Seongkyu Lee.
 
-I am a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at UC San Diego, as a member of Dr. John Hwang's Large-Scale Design Optimization (LSDO) Lab since 2024. I earned my Ph.D. from UC Davis under the guidance of Dr. Seongkyu Lee.
-
-My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics. I aim to conduct research on problems related to fluid dynamics, turbulence, and noise reduction, as well as optimization of aircraft design and performance, by integrating theoretical development, advanced numerical techniques, and practical application.
+My research lies at the intersection of aeroacoustics and aerodynamic shape optimization using computational fluid dynamics. I aim to conduct research on problems related to high-speed flows, turbulence, and noise reduction, as well as optimization of aircraft design and performance, by integrating theoretical development, advanced numerical techniques, and practical application.
 
 
 ---
